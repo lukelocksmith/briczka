@@ -1,0 +1,13 @@
+body {
+		overflow: hidden;
+}
+
+.layot-border {
+	position: fixed;
+	border: 10px solid #f10055;
+	width: 100vw;
+	height: 100vh;
+	box-sizing: border-box;
+	overflow: hidden;
+	z-index: 99;
+}

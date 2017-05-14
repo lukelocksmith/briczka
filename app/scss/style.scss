@@ -1,0 +1,15 @@
+//global must be first
+@import 'global/fonts.scss';
+@import 'global/normalize.scss';
+//variables and classes
+@import 'scaf.scss';
+//main style
+@import 'blocks/layot.scss';
+@import 'blocks/nav.scss';
+@import 'blocks/content.scss';
+@import 'blocks/player.scss';
+@import 'blocks/contact.scss';
+@import 'blocks/work.scss';
+//@import "blocks/.scss";
+
+

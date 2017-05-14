@@ -1,0 +1,86 @@
+
+@import '../blocks/var';
+@font-face
+{
+    font-family: 'ProximaNovaRegularCond';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/ProximaNovaRegularCond/proximanovacond-regular.eot');
+    src: url('../fonts/ProximaNovaRegularCond/proximanovacond-regular.eot?#iefix')format('embedded-opentype'),
+    url('../fonts/ProximaNovaRegularCond/proximanovacond-regular.woff') format('woff');
+}
+
+
+
+.menu-text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 2.5vw;
+    font-weight: 700;
+    letter-spacing: .3vw;
+}
+
+.min-text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.25vw;
+    font-weight: 600;
+    line-height: 1.25vw;
+}
+
+.button-text {
+    line-height: 1.1vw;
+      font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+
+.button-text:hover {
+    color: $clr1;
+}
+
+.player-text {
+    font-family: 'ProximaNovaRegularCond';
+    font-size: 0.75vw;
+    font-weight: 700;
+    line-height: 0.75vw;
+}
+
+.contact-mail a{
+    font-family: 'Nunito Sans', sans-serif;
+    color:  $clr2;
+    font-size: 7.2vw;
+    font-weight: 900;
+    line-height: 2vw;
+    text-align: center;
+    letter-spacing: 4px;
+    text-decoration: none;
+}
+
+.contact-p p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.875vw;
+    font-weight: 600;
+    line-height: 0.75vw;
+    color:  $clr2;
+    letter-spacing: 1px;
+}
+
+.text-grey {
+    color: $clr3;
+}
+
+.text-black {
+    color: $clr2;
+}
+
+.swiper-text {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+  letter-spacing: 5px;
+      h1 {
+      font-size: 2.5vw;
+    }
+    p {
+      font-size: 1.1vw
+    }
+  }

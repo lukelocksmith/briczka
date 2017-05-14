@@ -1,0 +1,89 @@
+@import 'var';
+
+/* CONTENT STYLE */
+
+.ebis
+{
+    color: $clr2;
+    background: url(../img/ebis_bg.png) 100% 100%;
+}
+
+.vertex
+{
+    color: #fff;
+    background: url(../img/vertex_bg.jpg) 100% 100%;
+}
+
+.swiper-briczka-logo
+{
+    position: absolute;
+    z-index: 1;
+    top: 6.5vw;
+    right: 23.5vw;
+
+    width: auto;
+    height: 1.46vw;
+    img
+    {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.swiper-text
+{
+    z-index: 1;
+
+    width: 10vw;
+    margin: 0 auto;
+    padding-top: 40vh;
+    position: relative;
+    text-align: center;
+}
+
+
+.swiper-text__sub
+{
+    /* text-transform: uppercase; */
+    font-size: 1.2rem;
+    font-size: 1.05rem; 
+    line-height: 1.7rem;
+    position: absolute;
+    display: block;
+    margin: auto;
+    width: 100%;
+    overflow: hidden; /*, transform 0.3s; */
+
+    height: 1.7rem;
+
+    text-align: center;
+    letter-spacing: 3px;
+
+}
+
+
+.swiper-text__sub .swiper-text__sub-left,
+{
+    display: inline-block;
+    margin-top: 0;
+    transition: transform .4s, opacity .7s .1s;
+    text-align: right;
+    margin-right: -3px;
+}
+.swiper-text__sub .swiper-text__sub-right,
+{
+    display: inline-block;
+    margin-top: 0;
+    transition: transform .6s, opacity .7s .1s; 
+    text-align: left;
+    margin-left: -4px;
+}
+
+.swiper-text:hover .swiper-text__sub .swiper-text__sub-left
+{
+    transform: translateY(-1.7rem);
+}
+.swiper-text:hover .swiper-text__sub .swiper-text__sub-right
+{
+    transform: translateY(-1.7rem);
+}
